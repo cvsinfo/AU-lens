@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lirot | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Leckerli+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container wrapper">
+          <div class="header__logo">
+            <img class="logo-au" src="./Assetss/logo.png" alt="">
+          </div>
+      
+          <nav class="header__nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link nav__link--active">Upload Photo</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Adhaar</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Scan Photo</a></li>
+              <li class="nav__item dropdown menu-item-with-dropdown">
+                <a href="#" class="nav__link dropdown__toggle">Menu <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown__menu meubar-drop" data-aos="fade-down">
+                  <li><a href="#">User Guide</a></li>
+                  <li><a href="#">Usage Statastics</a></li>
+                  <li><a href="#">Add User</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+      
+          <div class="header__cta">
+            <a href="#" class=" ">Forget Password</a>
+            <a href="#" class=" ">Logout &nbsp; <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+          </div>
+      
+          <!-- Hamburger for Mobile -->
+          <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </header>
+      
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#">Upload Photo</a>
+    <a href="#">Adhaar</a>
+    <a href="#">Scan Photo</a>
+  
+    <!-- Dropdown for mobile -->
+    <div class="mobile-dropdown">
+      <a href="#" class="mobile-dropdown-toggle">Menu <i class="fas fa-chevron-down"></i></a>
+      <ul class="mobile-dropdown-menu">
+        <li><a href="#">User Guide</a></li>
+        <li><a href="#">Usage Statistics</a></li>
+        <li><a href="#">Add User</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+
+
+<!-- main section upload photo code here  -->
+  <section class="main-section">
+        <div class="container  main-section-hero">
+       <div>
+        <h1>AuLens</h1>
+       </div>
+       <div><!-- From Uiverse.io by csemszepp --> 
+        <label for="file" class="custum-file-upload">
+        <div class="icon">
+            <svg width="84" height="84" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 2C10.067 2 8.5 3.567 8.5 5.5C8.5 7.433 10.067 9 12 9C13.933 9 15.5 7.433 15.5 5.5C15.5 3.567 13.933 2 12 2ZM10.5 5.5C10.5 4.672 11.172 4 12 4C12.828 4 13.5 4.672 13.5 5.5C13.5 6.328 12.828 7 12 7C11.172 7 10.5 6.328 10.5 5.5Z"
+                  fill="#5df15d" />
+                <path
+                  d="M3 20C3 16.134 7.03 14 12 14C16.97 14 21 16.134 21 20C21 20.552 20.552 21 20 21H4C3.448 21 3 20.552 3 20ZM12 16C8.534 16 5.88 17.566 5.17 19H18.83C18.12 17.566 15.466 16 12 16Z"
+                  fill="#5df15d" />
+                <path d="M16 7H20L21 8V12C21 12.552 20.552 13 20 13H16C15.448 13 15 12.552 15 12V8C15 7.448 15.448 7 16 7Z"
+                  fill="#5df15d" />
+                <circle cx="18" cy="10" r="1.5" fill="#111312" />
+              </svg>
+                      </div>
+        <div class="text">
+           <span>Click to take picture</span>
+           </div>
+           <input id="file" type="file">
+        </label>
+
+       <div class="tak-pic-div">  <a class="btn btn--primary tak-btn">Take Picture</a></div>
+        </div>
+        
+        </div>
+  </section>
+
+  <!-- kyc -->
+  <section class="kyc-section ">
+    <div class="container kyc">
+      <div class="left">
+        <h1 class="e">e-KYC</h1>
+      </div>
+      <div class="right">
+        <a href="#adhaar" class="btn btn--primary">Aadhar</a>
+        <a href="#drls" class="btn btn--primary">Driving License</a>
+        <a href="#voter" class="btn btn--primary">Voter ID</a>
+        <a href="#pan" class="btn btn--primary">PAN</a>
+        <p>Empower your financial journey with cutting-edge tools and personalized insights for smarter money management.</p>
+      </div>
+     
+    </div>
+  </section>
+  <section class="section feature-insight-section">
+    <div class="container" id="adhaar">
+      <div class="feature-flex-box " >
+  
+        <!-- Image container with overlay -->
+        <div class="feature-image-box">
+          <div class="feature-image-overlay">
+            <img width="40px" height="20px" src="/Assetss/adhaar.png" alt="Icon" />
+          </div>
+          <div class="green-space"> </div>
+
+        <div class="in-btn-div">  <a href="" class="btn insight-btn btn--primary">Submit</a></div>
+        </div>
+  
+        <!-- Text -->
+        <div class="feature-text-content">
+          <h2>Adhaar Card</h2>
+          <p>Get smart, tailored insights to track spending, save better, and plan with confidence.</p>
+        </div>
+  
+      </div>
+    </div>
+
+    <div class="container" id="drls">
+        <div class="feature-flex-box">
+    
+          <!-- Image container with overlay -->
+          <div class="feature-image-box">
+            <div class="feature-image-overlay">
+              <img width="40px" height="20px" src="/Assetss/driving license.png" alt="Icon" />
+            </div>
+            <div class="green-space"> </div>
+  
+          <div class="in-btn-div">  <a href="" class="btn insight-btn btn--primary">Submit</a></div>
+          </div>
+    
+          <!-- Text -->
+          <div class="feature-text-content">
+            <h2>Driving License</h2>
+            <p>Get smart, tailored insights to track spending, save better, and plan with confidence.</p>
+          </div>
+    
+        </div>
+      </div>
+
+
+      <div class="container" id="voter" >
+        <div class="feature-flex-box">
+    
+          <!-- Image container with overlay -->
+          <div class="feature-image-box">
+            <div class="feature-image-overlay">
+              <img width="40px" height="20px" src="/Assetss/driving license.png" alt="Icon" />
+            </div>
+            <div class="green-space"> </div>
+  
+          <div class="in-btn-div">  <a href="" class="btn insight-btn btn--primary">Submit</a></div>
+          </div>
+    
+          <!-- Text -->
+          <div class="feature-text-content">
+            <h2>Voter ID</h2>
+            <p>Get smart, tailored insights to track spending, save better, and plan with confidence.</p>
+          </div>
+    
+        </div>
+      </div>
+
+      <div class="container" id="pan">
+        <div class="feature-flex-box">
+    
+          <!-- Image container with overlay -->
+          <div class="feature-image-box">
+            <div class="feature-image-overlay">
+              <img width="40px" height="20px" src="/Assetss/pancard.jfif" alt="Icon" />
+            </div>
+            <div class="green-space"> </div>
+  
+          <div class="in-btn-div">  <a href="" class="btn insight-btn btn--primary">Submit</a></div>
+          </div>
+    
+          <!-- Text -->
+          <div class="feature-text-content">
+            <h2>PAN</h2>
+            <p>Get smart, tailored insights to track spending, save better, and plan with confidence.</p>
+          </div>
+    
+        </div>
+      </div>
+  </section>
+  
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // Mobile toggle
+    const hamburger = document.getElementById("hamburger");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      mobileMenu.classList.toggle("show");
+    });
+
+
+
+    
+  </script>
+  <script>
+    document.querySelector('.mobile-dropdown-toggle').addEventListener('click', function (e) {
+      e.preventDefault();
+      this.parentElement.classList.toggle('active');
+    });
+  </script>
+  
+</body>
+</html>
