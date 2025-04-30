@@ -27,12 +27,12 @@
             <ul class="nav__list">
               <li class="nav__item"><a href="#" class="nav__link nav__link--active">Upload Photo</a></li>
               <li class="nav__item"><a href="#" class="nav__link">Adhaar</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">Scan Photo</a></li>
+              <li class="nav__item"><a href="#scan-photo" class="nav__link">Scan Photo</a></li>
               <li class="nav__item dropdown menu-item-with-dropdown">
                 <a href="#" class="nav__link dropdown__toggle">Menu <i class="fas fa-chevron-down"></i></a>
                 <ul class="dropdown__menu meubar-drop" data-aos="fade-down">
-                  <li><a href="#">User Guide</a></li>
-                  <li><a href="#">Usage Statastics</a></li>
+                  <li><a href="/userguide.html">User Guide</a></li>
+                  <li><a href="/usedetails.html">Usage Statistics</a></li>
                   <li><a href="#">Add User</a></li>
                   <li><a href="#">Contact Us</a></li>
                 </ul>
@@ -41,8 +41,8 @@
           </nav>
       
           <div class="header__cta">
-            <a href="#" class=" ">Forget Password</a>
-            <a href="#" class=" ">Logout &nbsp; <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+            <a href="#" class=" ">Change Password</a>
+            <a href="#" class="logout">Logout &nbsp; <i class="fa fa-sign-out" aria-hidden="true"></i></a>
           </div>
       
           <!-- Hamburger for Mobile -->
@@ -80,7 +80,8 @@
        <div>
         <h1>AuLens</h1>
        </div>
-       <div><!-- From Uiverse.io by csemszepp --> 
+       <div>
+        <!-- From Uiverse.io by csemszepp --> 
         <label for="file" class="custum-file-upload">
         <div class="icon">
             <svg width="84" height="84" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,7 +176,7 @@
           <!-- Image container with overlay -->
           <div class="feature-image-box">
             <div class="feature-image-overlay">
-              <img width="40px" height="20px" src="/Assetss/driving license.png" alt="Icon" />
+              <img width="40px" height="20px" src="/Assetss/voter.jpg" alt="Icon" />
             </div>
             <div class="green-space"> </div>
   
@@ -191,7 +192,7 @@
         </div>
       </div>
 
-      <div class="container" id="pan">
+      <div class="container1" id="pan">
         <div class="feature-flex-box">
     
           <!-- Image container with overlay -->
@@ -212,6 +213,35 @@
     
         </div>
       </div>
+  </section>
+
+
+  <section class="scan-photo-section" id="scan-photo">
+
+    <div class="container  main-section-hero">
+  <div class="scan-photo-mob">
+    <h1>Scan Photo</h1>
+     <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quod repellendus nihil laudantium accusamus aspernatur repudiandae aliquam dolore maiores hic debitis ad itaque iusto nesciunt libero? Doloremque aut natus mollitia!</p>
+  </div>
+    
+      <div>
+       <!-- From Uiverse.io by csemszepp --> 
+       <label for="file" class="custum-file-upload">
+       <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" style="fill: #5df15d;"><path d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z"></path></svg>
+                     </div>
+       <div class="text">
+          <span>Upload Photo here</span>
+          </div>
+          <input id="file" type="file">
+       </label>
+
+      <div class="tak-pic-div">  <a class="btn btn--primary tak-btn">Scan here</a></div>
+       </div>
+       
+       </div>
+
   </section>
   
   
@@ -234,12 +264,14 @@
 
     
   </script>
-  <script>
-    document.querySelector('.mobile-dropdown-toggle').addEventListener('click', function (e) {
-      e.preventDefault();
-      this.parentElement.classList.toggle('active');
-    });
-  </script>
+<script>
+  document.querySelector('.mobile-dropdown-toggle').addEventListener('click', function (e) {
+    e.preventDefault();
+    const menu = document.querySelector('.mobile-dropdown-menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  });
+</script>
+
   
 </body>
 </html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lirot | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Leckerli+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+	/*  user guide page css */
+
+.guide h1 {
+  font-size: 50px;
+  color: var(--text-color); /* or any color you prefer */
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 80px;
+}
+
+.user-guide-section {
+  padding: 50px 0;
+}
+
+.guide-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.side-content {
+  width: 250px;
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.video-container {
+  flex: 1;
+  min-width: 500px;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  border: 2px solid var(--btn-primary);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+/* ========== Dummy Content Section ========== */
+.dummy-content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.dummy-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white /* Optional: use a highlight color */
+}
+
+.dummy-paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+</style>
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container wrapper">
+          <div class="header__logo">
+<a href="/index.html">            <img class="logo-au" src="./Assetss/logo.png" alt="">
+</a>          </div>
+      
+          <nav class="header__nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link nav__link--active">Upload Photo</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Adhaar</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Scan Photo</a></li>
+              <li class="nav__item dropdown menu-item-with-dropdown">
+                <a href="#" class="nav__link dropdown__toggle">Menu <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown__menu meubar-drop" data-aos="fade-down">
+                  <li><a href="#">User Guide</a></li>
+                  <li><a href="/userguide.html">Usage Statastics</a></li>
+                  <li><a href="#">Add User</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+      
+          <div class="header__cta">
+            <a href="#" class=" ">Forget Password</a>
+            <a href="#" class=" ">Logout &nbsp; <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+          </div>
+      
+          <!-- Hamburger for Mobile -->
+          <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </header>
+      
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#">Upload Photo</a>
+    <a href="#">Adhaar</a>
+    <a href="">Scan Photo</a>
+  
+    <!-- Dropdown for mobile -->
+    <div class="mobile-dropdown">
+      <a href="#" class="mobile-dropdown-toggle">Menu <i class="fas fa-chevron-down"></i></a>
+      <ul class="mobile-dropdown-menu">
+        <li><a href="#">User Guide</a></li>
+        <li><a href="#">Usage Statistics</a></li>
+        <li><a href="#">Add User</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+
+
+<!-- //////////////////////////////////////////////////////////// -->
+<div class="container guide">
+    <h1>User Guide</h1>
+  </div>
+
+  <section class="user-guide-section">
+    <div class="guide-wrapper">
+      <div class="side-content">
+        <p>This is some dummy content on the left.</p>
+      </div>
+
+      <div class="video-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2PuFyjAs7JA?si=FkG7PYQ_d0gXvl0Q"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <div class="side-content">
+        <p>This is some dummy content on the right.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="dummy-content">
+    <div class="dummy-heading">User Information</div>
+    <p class="dummy-paragraph">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat velit eaque suscipit eum, corrupti perferendis
+      quaerat quisquam expedita fugit, architecto in, odit atque laborum sapiente ex a cupiditate aliquam pariatur.
+    </p>
+  </section>
+  
+
+
+
+<!-- /////////////////////////////////////////////////////////////// -->
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // Mobile toggle
+    const hamburger = document.getElementById("hamburger");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      mobileMenu.classList.toggle("show");
+    });
+
+
+
+    
+  </script>
+  <script>
+    document.querySelector('.mobile-dropdown-toggle').addEventListener('click', function (e) {
+      e.preventDefault();
+      this.parentElement.classList.toggle('active');
+    });
+  </script>
+  
+</body>
+</html>
