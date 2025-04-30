@@ -251,16 +251,15 @@ body {
     padding-bottom: 10px ;
     border-bottom: 1px solid white;
   }
-  .meubar-drop li a{
-
-  }
+  
   .main-section-hero{
     display: flex;
     flex-direction: row;
     align-items: center;
 
     justify-content: space-evenly;
-    height: 65vh;
+    height: 80vh;
+    gap: 60px;
     
 
 
@@ -268,12 +267,16 @@ body {
   }
   .main-section{
     padding: 40px 20px;
-    border-bottom:1px solid gainsboro;
+
+  }
+  .main-section p{
+    width: 90%;
+    line-height: 30px;
   }
   /* From Uiverse.io by csemszepp */ 
 .custum-file-upload {
-    height: 280px;
-    width: 360px;
+    height: 290px;
+    width: 460px;
     display: flex;
     flex-direction: column;
     align-items: space-between;
@@ -332,12 +335,13 @@ body {
     align-items: center; /* vertical centering */
     flex-wrap: wrap;
     gap: 160px;;
+    
     height: 100%;
     padding: 40px 20px;
     border-bottom:1px solid #e8e8e8;
   }
   .kyc-section{
-
+    height: 90vh;
   }
    
   .left .e {
@@ -404,17 +408,15 @@ body {
   .feature-image-overlay {
     position: absolute;
     top: 30px;
-    left: -30px;
+    left: -40px;
     background-color: #0f1110;
     padding: 5px;
     border: 1px solid #fff;
   }
-  .insight-btn{
-  
-  }
+
   .feature-image-overlay img {
-    width: 60px;
-    height: 40px;
+    width: 70px;
+    height: 50px;
   }
   
   /* Text styling */
@@ -448,8 +450,8 @@ body {
     line-height: 1.6;
   }
   .green-space{
-    width: 300px;
-    height: 250px ;
+    width: 350px;
+    height: 300px ;
     background: #4bd94b;
     margin-bottom: 30px;
 
@@ -459,13 +461,11 @@ body {
     text-align: center;
   }
   .feature-insight-section .container{
-    padding-top: 60px;
-    border-bottom: 1px solid var(--border-color);
+    padding-top: 100px;
+    padding-bottom: 30px;
+
   }
-  .feature-insight-section .container1{
-    padding-top: 60px;
-   
-  }
+  
   .scan-photo-section{
     border-top: 1px solid #e2e2e2;
     padding: 30px 20px;

@@ -20,13 +20,13 @@
     <header class="header">
         <div class="container wrapper">
           <div class="header__logo">
-              <a href="index.html"> <img class="logo-au" src="./Assetss/logo.png" alt=""></a>
+           <a href="index.html"> <img class="logo-au" src="./Assetss/logo.png" alt=""></a>
           </div>
       
           <nav class="header__nav">
             <ul class="nav__list">
-              <li class="nav__item"><a href="/uploadimage.html" class="nav__link ">Upload Photo</a></li>
-              <li class="nav__item"><a href="e-kyc.html" class="nav__link">e-KYC</a></li>
+              <li class="nav__item"><a href="/uploadimage.html" class="nav__link">Upload Photo</a></li>
+              <li class="nav__item"><a href="/e-kyc.html" class="nav__link  nav__link--active">e-KYC</a></li>
               <li class="nav__item"><a href="/scanphoto.html" class="nav__link">Scan Photo</a></li>
               <li class="nav__item dropdown menu-item-with-dropdown">
                 <a href="#" class="nav__link dropdown__toggle">Menu <i class="fas fa-chevron-down"></i></a>
@@ -56,7 +56,7 @@
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
     <a href="#">Upload Photo</a>
-    <a href="e-kyc.html">e-KYC</a>
+    <a href="#">e-KYC</a>
     <a href="#">Scan Photo</a>
   
     <!-- Dropdown for mobile -->
@@ -74,71 +74,24 @@
 
 
 
-<!-- main section upload photo code here  -->
-  <section class="main-section">
-        <div class="container  main-section-hero">
-       <div>
-        <h1>Take Photo</h1> <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, distinctio possimus nobis, esse est totam ratione, reiciendis maiores optio magnam quae sed ipsum repellat officiis quaerat commodi. Illum, natus laboriosam?</p>
-       </div>
-       <div>
-        <!-- From Uiverse.io by csemszepp --> 
-        <label for="file" class="custum-file-upload">
-        <div class="icon">
-            <svg width="84" height="84" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M12 2C10.067 2 8.5 3.567 8.5 5.5C8.5 7.433 10.067 9 12 9C13.933 9 15.5 7.433 15.5 5.5C15.5 3.567 13.933 2 12 2ZM10.5 5.5C10.5 4.672 11.172 4 12 4C12.828 4 13.5 4.672 13.5 5.5C13.5 6.328 12.828 7 12 7C11.172 7 10.5 6.328 10.5 5.5Z"
-                  fill="#5df15d" />
-                <path
-                  d="M3 20C3 16.134 7.03 14 12 14C16.97 14 21 16.134 21 20C21 20.552 20.552 21 20 21H4C3.448 21 3 20.552 3 20ZM12 16C8.534 16 5.88 17.566 5.17 19H18.83C18.12 17.566 15.466 16 12 16Z"
-                  fill="#5df15d" />
-                <path d="M16 7H20L21 8V12C21 12.552 20.552 13 20 13H16C15.448 13 15 12.552 15 12V8C15 7.448 15.448 7 16 7Z"
-                  fill="#5df15d" />
-                <circle cx="18" cy="10" r="1.5" fill="#111312" />
-              </svg>
-                      </div>
-        <div class="text">
-           <span>Click to take picture</span>
-           </div>
-           <input id="file" type="file">
-        </label>
 
-       <div class="tak-pic-div">  <a class="btn btn--primary tak-btn">Take Picture</a></div>
-        </div>
-        
-        </div>
+  <!-- kyc -->
+  <section class="kyc-section ">
+    <div class="container kyc">
+      <div class="left">
+        <h1 class="e">e-KYC</h1>
+      </div>
+      <div class="right">
+        <a href="/Adhaar.html" class="btn btn--primary">Aadhar</a>
+        <a href="#drls" class="btn btn--primary">Driving License</a>
+        <a href="#voter" class="btn btn--primary">Voter ID</a>
+        <a href="#pan" class="btn btn--primary">PAN</a>
+        <p>Empower your financial journey with cutting-edge tools and personalized insights for smarter money management.</p>
+      </div>
+     
+    </div>
   </section>
-
-
-
-  <!-- <section class="scan-photo-section" id="scan-photo">
-
-    <div class="container  main-section-hero">
-  <div class="scan-photo-mob">
-    <h1>Scan Photo</h1>
-     <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quod repellendus nihil laudantium accusamus aspernatur repudiandae aliquam dolore maiores hic debitis ad itaque iusto nesciunt libero? Doloremque aut natus mollitia!</p>
-  </div>
-    
-      <div>
-
-       <label for="file" class="custum-file-upload">
-       <div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" style="fill: #5df15d;"><path d="M3 4v5h2V5h4V3H4a1 1 0 0 0-1 1zm18 5V4a1 1 0 0 0-1-1h-5v2h4v4h2zm-2 10h-4v2h5a1 1 0 0 0 1-1v-5h-2v4zM9 21v-2H5v-4H3v5a1 1 0 0 0 1 1h5zM2 11h20v2H2z"></path></svg>
-                     </div>
-       <div class="text">
-          <span>Upload Photo here</span>
-          </div>
-          <input id="file" type="file">
-       </label>
-
-      <div class="tak-pic-div">  <a class="btn btn--primary tak-btn">Scan here</a></div>
-       </div>
-       
-       </div>
-
-  </section> -->
-  
+ 
   
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
